@@ -1,5 +1,5 @@
-Installing Ansible on AWS
-
+Installing Ansible on AWS 
+ec2-ubuntu:
 	sudo apt-get update -y
 	sudo apt upgrade -y
 
@@ -52,7 +52,8 @@ the file, pass the following command:
 sudo vi /etc/ansible/hosts
 
 	[
-		sometimes ansible folder is not visiable then we can write our own		  inventory file 
+		sometimes ansible folder is not visiable bcoz if we dont install needed ansible packages then we can write our own inventory file ie 
+		inventory file location we have to specify
 		 sudo vi inventory.ini
 		
 		[web]
